@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: .6em;
+}
+
+main {
+  display: flex;
+  margin-top: 4em;
+}
+
+.computer-option, .player-option {
+  width: 50%;
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 1em;
+}
